@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  font-family: "Sen", sans-serif;
+  padding: 50px 150px;
+}
+
+.about-title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-decoration: underline #ffa818;
+}
+
+.about-text {
+  width: 60%;
+  text-align: center;
+}

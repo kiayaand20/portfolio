@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Sen", sans-serif;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+
+.home-link,
+.about-link,
+.project-link,
+.contact-link {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 30px;
+}
