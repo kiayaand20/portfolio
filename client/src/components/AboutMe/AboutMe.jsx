@@ -4,12 +4,12 @@ function AboutMe() {
   return (
     <div className='wrapper'>
       <div className='about-title'>
-      <h1>ABOUT ME</h1>
+      <p>ABOUT ME</p>
       </div>
 
       <div className='about-text'>
       <p>
-        Hello! I am Kiaya Anderson, a Full Stack Software Engineer based out of Florida. 
+        Hello! I am Kiaya Anderson, a Software Engineer based out of Florida. 
         Whether I am going for a PR at my Crossfit gym or writing lines of code for app, I am always up for a challenge.
       </p>
       <p>

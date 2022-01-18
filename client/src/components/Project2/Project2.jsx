@@ -1,4 +1,4 @@
-import './Project.css'
+import './Project2.css'
 import * as React from "react";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
@@ -7,15 +7,15 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
-function Project() {
+function Project2() {
   return (
     <div className='project1-container'>
       <Card sx={{ maxWidth: 500 }}>
       <CardMedia
         component="img"
         height="340"
-        image="https://res.cloudinary.com/kacloud20/image/upload/v1642540533/Portfolio/New_Website_Blue_Mockup_Instagram_-_Laptop_1_omdtls.png"
-        alt="beauty-bar-img"
+        image=""
+        alt="weather-img"
       />
       <CardContent>
         <Typography
@@ -26,15 +26,16 @@ function Project() {
           textAlign="center"
           fontWeight="bold"
         >
-          THE BEAUTY BAR
+          WHATEVER THE WEATHER
         </Typography>
         <Typography fontFamily="Sen" color="black" textAlign="center">
-          <em>The Beauty Bar</em> is a basic application that displays a variety
-          of beauty products by category. Users will be able to search by
-          product type, brand, price, and ingredient preferences. Products come
-          from an outside Makeup API.
+            <em>Whatever the Weather</em> is an application that allows users to view
+            fun activity ideas based on the season. The user can select a season on the
+            homepage, which will direct them to another page populated with activity names,
+            an image, and a brief description. The user will also be allotted the opportunity
+            to add their favorite seasonal activity.
           <hr />
-          <strong>MADE WITH:</strong> Javascript, HTML, CSS
+          <strong>MADE WITH:</strong> Javascript, CSS
         </Typography>
       </CardContent>
       <CardActions>
@@ -46,4 +47,4 @@ function Project() {
   );
 }
 
-export default Project
+export default Project2

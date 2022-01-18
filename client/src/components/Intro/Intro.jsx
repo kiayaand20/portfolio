@@ -15,7 +15,7 @@ function Intro() {
   return (
     <div className='home-pg'>
       <div className='home-intro'>
-        <p className='name'>KIAYA ANDERSON</p>
+        <p className='name'>HI, I'M KIAYA!</p>
         <p className='title'>SOFTWARE ENGINEER</p>
       <div>
           <p className='about-me'>A LITTLE ABOUT ME:

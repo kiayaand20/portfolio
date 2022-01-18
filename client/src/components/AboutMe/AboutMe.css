@@ -9,10 +9,10 @@
 
 .about-title {
   display: flex;
-  flex-direction: column;
-  text-align: center;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: bold;
   letter-spacing: 1.5px;
-  text-decoration: underline #ffa818;
 }
 
 .about-text {
