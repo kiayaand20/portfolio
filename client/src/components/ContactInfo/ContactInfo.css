@@ -5,7 +5,6 @@
   flex-direction: column;
   justify-content: center;
   font-family: "Sen", sans-serif;
-  padding-top: 70px;
 }
 
 .connect-title {
@@ -21,12 +20,14 @@
   font-size: 30px;
 }
 
-.email {
-  font-size: 28px;
-  padding-bottom: 20px;
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .linked-in,
-.github {
+.github,
+.gmail {
   padding: 40px;
 }

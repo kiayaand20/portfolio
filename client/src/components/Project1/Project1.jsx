@@ -1,4 +1,4 @@
-import './Project.css'
+import './Project1.css'
 import * as React from "react";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
@@ -7,7 +7,8 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
-function Project() {
+
+function Project1() {
   return (
     <div className='project1-container'>
       <Card sx={{ maxWidth: 500 }}>
@@ -29,12 +30,12 @@ function Project() {
           THE BEAUTY BAR
         </Typography>
         <Typography fontFamily="Sen" color="black" textAlign="center">
-          <em>The Beauty Bar</em> is a basic application that displays a variety
+          <em>The Beauty Bar</em> is an application that displays a variety
           of beauty products by category. Users will be able to search by
           product type, brand, price, and ingredient preferences. Products come
           from an outside Makeup API.
           <hr />
-          <strong>MADE WITH:</strong> Javascript, HTML, CSS
+          <strong>MADE WITH:</strong> HTML, CSS, Javascript
         </Typography>
       </CardContent>
       <CardActions>
@@ -46,4 +47,4 @@ function Project() {
   );
 }
 
-export default Project
+export default Project1

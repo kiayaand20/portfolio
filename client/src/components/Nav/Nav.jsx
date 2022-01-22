@@ -4,11 +4,11 @@ import {Link} from 'react-router-dom'
 function Nav() {
   return (
     <div className='navbar'>
-      <Link to='/' className='home-link'>HOME</Link>
-      <Link to='/about' className='about-link'>ABOUT</Link>
-      <Link to='/projects' className='project-link'>PROJECTS</Link>
-      <Link to='/contact' className='contact-link'>CONTACT</Link>
-      <label className='resume-link'>RESUME</label>
+      <Link to='/' className='home-link'>&lt;home&gt;</Link>
+      <Link to='/about' className='about-link'>&lt;about&gt;</Link>
+      <Link to='/projects' className='project-link'>&lt;projects&gt;</Link>
+      <Link to='/contact' className='contact-link'>&lt;contact&gt;</Link>
+      <Link to='/resume' className='resume-link'>&lt;resume&gt;</Link>
     </div>
   )
 }
