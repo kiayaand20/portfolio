@@ -32,15 +32,16 @@ function AboutMe() {
           Hello! I am Kiaya Anderson, a Software Engineer with an undisputed
           love for learning, problem-solving, and all things design. Whether
           I am going for a PR at my Crossfit gym or learning a new programming
-          language, I am always ready to face and conquer a challenge.
+          language, I am always ready to face and conquer a challenge.</p>
+        <p>
           After 8 years of professional experience working in healthcare,
           business, and education, I am looking to bring my skills for curating
           memorable user experiences and finding creative solutions to the
           tech industry. I am passionate about increasing inclusivity and
           diversity in the tech industry through representation and strive to be an
           example that you are capable of accomplishing anything you set out to do
-          with perseverance and consistency.
-      </p>
+          with perseverance and consistency.</p>
+        
       <label>
       <strong>&lt;toolbox&gt;</strong>
       </label>

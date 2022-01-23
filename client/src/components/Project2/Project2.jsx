@@ -29,7 +29,7 @@ function Project2() {
         >
           WHATEVER THE WEATHER
         </Typography>
-        <Typography fontFamily="Sen" color="black" textAlign="center">
+        <Typography fontFamily="Sen" fontSize="16.5px" color="black" textAlign="center">
             <em>Whatever the Weather</em> is an online application that allows users to view
             fun activity ideas based on the season. The user can select a season on the
             homepage, which will direct them to another page populated with activity names,
@@ -40,8 +40,8 @@ function Project2() {
         </Typography>
       </CardContent>
       <CardActions>
-        <a href="https://whatever-theweather.netlify.app/" style={{textDecoration:'none'}}><Button size="small">LIVE SITE</Button></a>
-        <a href="https://github.com/kiayaand20/Whatever-the-Weather" style={{textDecoration:'none'}}><Button size="small">CODE</Button></a>
+        <a href="https://whatever-theweather.netlify.app/" style={{textDecoration:'none'}}><Button size="medium">LIVE SITE</Button></a>
+        <a href="https://github.com/kiayaand20/Whatever-the-Weather" style={{textDecoration:'none'}}><Button size="medium">CODE</Button></a>
       </CardActions>
         </Card>
       </div>

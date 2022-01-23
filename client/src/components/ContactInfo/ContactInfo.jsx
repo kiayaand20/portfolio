@@ -5,7 +5,7 @@ function ContactInfo() {
     <div className='contact-pg'>
         <p className='connect-title'>LET'S CONNECT!</p>
         <p className='connect-sentence'>If you would like to know more about me, my projects, or simply say hello - <br /> I am available to chat! </p>
-      <p className='connect-thanks'><em>Thanks for stopping by!</em></p>
+        <p className='connect-thanks'><em>Thanks for stopping by!</em></p>
       <div className='contact-info-imgs'>
           <a href="mailto: kiayaanderson89@gmail.com" className='gmail'>
             <img src="https://res.cloudinary.com/kacloud20/image/upload/v1642885321/Portfolio/Gmailimg_dpbucx.png" 

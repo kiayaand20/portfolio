@@ -29,7 +29,7 @@ function Project1() {
         >
           THE BEAUTY BAR
         </Typography>
-        <Typography fontFamily="Sen" color="black" textAlign="center">
+        <Typography fontFamily="Sen" fontSize="18px" color="black" textAlign="center">
           <em>The Beauty Bar</em> is a web application that displays a wide
           variety of beauty products from the most popular and trendy brands.
           Users are able to search for items by product type, brand, price,

@@ -14,13 +14,11 @@
   letter-spacing: 1.5px;
 }
 
-/* .about-text {
-  display: flex;
-  flex-direction: ;
-  justify-content: center;
-  width: 60%;
-  text-align: center;
-} */
+.about-text {
+  padding-left: 300px;
+  padding-right: 300px;
+  font-size: 22px;
+}
 
 .scramble-container {
   font-size: 30px;

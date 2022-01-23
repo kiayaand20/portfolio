@@ -29,7 +29,7 @@ function Project3() {
         >
           SOCK²
         </Typography>
-        <Typography fontFamily="Sen" color="black" textAlign="center">
+        <Typography fontFamily="Sen" fontSize="16.5px" color="black" textAlign="center">
             <em>Sock²</em> is an aspiring shopping application that features creative
             design socks. Users are able to create an account, browse through all
             sock inventory, and view specific sock details. Similarly, the app provides the

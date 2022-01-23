@@ -9,7 +9,7 @@ function Home() {
     <Layout>
       <div>
         <p className='project-title'>PROJECTS</p>
-        <h3>Every project is a labor of love and hardwork. Enjoy!</h3>
+        <p className='project-text'>Every project is a labor of love and hardwork. Enjoy!</p>
         <div className='projects'>
           <Project1 />
           <Project2 />

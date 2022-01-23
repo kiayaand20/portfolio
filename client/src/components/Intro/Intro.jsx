@@ -6,7 +6,7 @@ function Intro() {
       <div className='home-intro'>
         <p className='name'>HI, I'M KIAYA!</p>
         <p className='title'>SOFTWARE ENGINEER</p>
-    </div>
+      </div>
    </div>
   )
 }
