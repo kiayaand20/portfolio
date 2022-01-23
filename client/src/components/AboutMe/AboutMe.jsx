@@ -2,11 +2,11 @@ import './AboutMe.css'
 import TextScramble from '@twistezo/react-text-scramble'
 
 const scrambleTexts = [
-  'book worm 🐛',
-  'lifetime learner 📚',
-  'crossfitter 💪🏾',
-  'naturalista ➰',
-  'music lover 🎶'
+  'Book Worm 🐛',
+  'Lifetime Learner 📚',
+  'Crossfitter 💪🏾',
+  'Naturalista ➰',
+  'Music Lover 🎶'
 ]
 
 function AboutMe() {
@@ -16,15 +16,15 @@ function AboutMe() {
       <p>ABOUT ME</p>
       </div>
       <div>
-        <p className='scramble-'>
+        <div className='scramble-container'>
           <TextScramble
             texts={scrambleTexts}
-            letterSpeed={110}
+            letterSpeed={90}
             nextLetterSpeed={100}
             pauseTime={400}
             className='scramble-color'
           />
-        </p> 
+        </div> 
       </div>
 
       <div className='about-text'>

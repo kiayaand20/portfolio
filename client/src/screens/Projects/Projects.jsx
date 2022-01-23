@@ -9,6 +9,7 @@ function Home() {
     <Layout>
       <div>
         <p className='project-title'>PROJECTS</p>
+        <h3>Every project is a labor of love and hardwork. Enjoy!</h3>
         <div className='projects'>
           <Project1 />
           <Project2 />

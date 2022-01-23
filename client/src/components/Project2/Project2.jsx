@@ -30,18 +30,18 @@ function Project2() {
           WHATEVER THE WEATHER
         </Typography>
         <Typography fontFamily="Sen" color="black" textAlign="center">
-            <em>Whatever the Weather</em> is an application that allows users to view
+            <em>Whatever the Weather</em> is an online application that allows users to view
             fun activity ideas based on the season. The user can select a season on the
             homepage, which will direct them to another page populated with activity names,
-            an image, and a brief description. The user will also be allotted the opportunity
-            to add their favorite seasonal activity.
+            an image, and a brief description. The user can also
+            add their favorite seasonal activity via an online form.
           <hr />
-          <strong>MADE WITH:</strong> Javascript, React, Material-UI, & CSS 
+          <strong>MADE WITH:</strong> Javascript, React, Material-UI, & CSS
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">LIVE SITE</Button>
-        <Button size="small">CODE</Button>
+        <a href="https://whatever-theweather.netlify.app/" style={{textDecoration:'none'}}><Button size="small">LIVE SITE</Button></a>
+        <a href="https://github.com/kiayaand20/Whatever-the-Weather" style={{textDecoration:'none'}}><Button size="small">CODE</Button></a>
       </CardActions>
         </Card>
       </div>

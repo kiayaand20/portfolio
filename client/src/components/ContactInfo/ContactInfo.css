@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex-wrap: wrap;
   font-family: "Sen", sans-serif;
 }
 
@@ -20,14 +21,15 @@
   font-size: 30px;
 }
 
-.contact-info {
+.contact-info-imgs {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .linked-in,
 .github,
 .gmail {
-  padding: 40px;
+  padding: 0px 40px;
 }

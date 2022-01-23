@@ -30,18 +30,18 @@ function Project3() {
           SOCK²
         </Typography>
         <Typography fontFamily="Sen" color="black" textAlign="center">
-            <em>Sock²</em> is an online application that features creative
-            design socks. Users will be able to create an account, browse through all
-            sock inventory, and view specific sock details. Similarly, the app will have the
+            <em>Sock²</em> is an aspiring shopping application that features creative
+            design socks. Users are able to create an account, browse through all
+            sock inventory, and view specific sock details. Similarly, the app provides the
             functionality of adding, editing, and deleting a sock. The newly added socks will
             be included on the new arrivals page. 
           <hr />
-          <strong>MADE WITH:</strong> Javascript, React, Express/Mongoose, Material-UI, & CSS 
+          <strong>MADE WITH:</strong> Javascript, React, Express/Mongoose, Material-UI, & CSS
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">LIVE SITE</Button>
-        <Button size="small">CODE</Button>
+        <a href="https://socksquared.netlify.app/" style={{textDecoration:'none'}}><Button size="medium">LIVE SITE</Button></a>
+        <a href="https://github.com/kiayaand20/sock2-app" style={{textDecoration:'none'}}><Button size="medium">CODE</Button></a>
       </CardActions>
       </Card>
       </div>

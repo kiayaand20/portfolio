@@ -3,3 +3,9 @@
   justify-content: center;
   padding-top: 60px;
 }
+
+.project-btns {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}

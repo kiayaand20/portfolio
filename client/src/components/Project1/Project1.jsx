@@ -30,17 +30,17 @@ function Project1() {
           THE BEAUTY BAR
         </Typography>
         <Typography fontFamily="Sen" color="black" textAlign="center">
-          <em>The Beauty Bar</em> is an application that displays a variety
-          of beauty products by category. Users will be able to search by
-          product type, brand, price, and ingredient preferences. Products come
-          from an outside Makeup API.
+          <em>The Beauty Bar</em> is a web application that displays a wide
+          variety of beauty products from the most popular and trendy brands.
+          Users are able to search for items by product type, brand, price,
+          and ingredient preferences. Products come from an outside Makeup API.
           <hr />
           <strong>MADE WITH:</strong> HTML, CSS, Javascript
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">LIVE SITE</Button>
-        <Button size="small">CODE</Button>
+          <a href="https://kiayaand20.github.io/The-Beauty-Bar/" style={{textDecoration:'none'}}><Button size="medium">LIVE SITE</Button></a>
+        <a href="https://github.com/kiayaand20/The-Beauty-Bar" style={{textDecoration:'none'}}><Button size="medium">CODE</Button></a>
       </CardActions>
       </Card>
       </div>
