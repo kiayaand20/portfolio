@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
+
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(229, 199, 241);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-left: 20px;
+}
+
+.logo {
+  font-family: "Sen", sans-serif;
+  font-size: 15px;
+}

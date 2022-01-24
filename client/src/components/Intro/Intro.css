@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 
 .home-container {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  padding-top: 200px;
-  padding-left: 80px;
+  padding-top: 100px;
+  padding-left: 40px;
   line-height: 0.7;
 }
 
@@ -18,12 +19,12 @@
   font-weight: bold;
   font-size: 72px;
   line-height: 0;
-  letter-spacing: 3.5px;
+  font-family: "Caveat", cursive;
 }
 
 .title {
   font-weight: bold;
-  font-size: 38px;
+  font-size: 48px;
   padding-bottom: 150px;
   letter-spacing: 1.5px;
 }

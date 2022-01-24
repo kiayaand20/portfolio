@@ -3,24 +3,17 @@
 .wrapper {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   font-family: "Sen", sans-serif;
 }
 
 .about-title {
-  display: flex;
-  justify-content: center;
   font-size: 50px;
   font-weight: bold;
-  letter-spacing: 1.5px;
+  letter-spacing: 5px;
 }
 
-.about-text {
-  padding-left: 300px;
-  padding-right: 300px;
-  font-size: 22px;
-}
-
-.scramble-container {
+/* .scramble-container {
   font-size: 30px;
   font-style: italic;
   line-height: 0.9;
@@ -29,5 +22,39 @@
 .scramble-color {
   display: inline-block;
   font-weight: bold;
-  color: #ffa818;
+  color: #b59fea;
+} */
+
+.about-text {
+  padding-left: 150px;
+  padding-right: 150px;
+  font-size: 22px;
+}
+
+.skills-row-1,
+.skills-row-2,
+.skills-row-3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.skills-row-1 {
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+.skills-row-2 {
+  padding-bottom: 30px;
+}
+
+.skills {
+  text-align: center;
+  font-family: "Sen", sans-serif;
+  font-size: 22px;
+}
+
+.skills p {
+  margin: 0;
+  padding: 0;
 }
