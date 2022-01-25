@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 function Nav() {
   return (
-    <div className='navbar'>
+    <nav className='navbar'>
       <Link to='/' className='home-link'>&lt;home&gt;</Link>
       <Link to='/about' className='about-link'>&lt;about&gt;</Link>
       <Link to='/projects' className='project-link'>&lt;projects&gt;</Link>
@@ -11,7 +11,7 @@ function Nav() {
       <a href="https://drive.google.com/file/d/1_wAXoveW9AjQV8RC1e-s24ftp-cO2mFW/view"
         rel="noreferrer" target="_blank" className='resume-link'><Link to='/resume'>
         </Link>&lt;resume&gt;</a>
-    </div>
+    </nav>
   )
 }
 

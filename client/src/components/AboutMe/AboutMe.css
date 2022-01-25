@@ -13,48 +13,65 @@
   letter-spacing: 5px;
 }
 
-/* .scramble-container {
-  font-size: 30px;
+.scramble-container {
+  font-size: 24px;
   font-style: italic;
-  line-height: 0.9;
+  line-height: 0.8;
+  padding-bottom: 15px;
 }
 
 .scramble-color {
   display: inline-block;
   font-weight: bold;
   color: #b59fea;
-} */
+}
 
 .about-text {
   padding-left: 150px;
   padding-right: 150px;
-  font-size: 22px;
+  font-size: 20px;
 }
 
-.skills-row-1,
-.skills-row-2,
-.skills-row-3 {
-  display: flex;
-  justify-content: space-evenly;
-  align-content: center;
-}
-
-.skills-row-1 {
-  padding-bottom: 30px;
-  padding-top: 20px;
-}
-
-.skills-row-2 {
-  padding-bottom: 30px;
-}
-
-.skills {
+.skill-container {
   text-align: center;
-  font-family: "Sen", sans-serif;
-  font-size: 22px;
+  font-size: 0.7rem;
 }
 
-.skills p {
-  margin: 0;
-  padding: 0;
+.section-container {
+  display: flex;
+  justify-content: center;
+}
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 80px);
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+}
+
+.skill-grid li:hover {
+  box-shadow: 0 10px 28px rgb(0 0 0 / 20%);
+}
+
+.skill-grid li {
+  padding: 8px;
+  border-radius: 15px;
+  width: 80px;
+  transition: all 0.3s ease-in;
+  border: 1px solid #eee;
+}
+
+.skill-grid li p {
+  margin-top: 10px;
+  font-family: "Sen", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+}
+
+item-container {
+  box-sizing: border-box;
 }

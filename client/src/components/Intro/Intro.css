@@ -13,6 +13,20 @@
 .home-intro {
   text-align: left;
   font-family: "Sen", sans-serif;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .name {
@@ -27,4 +41,5 @@
   font-size: 48px;
   padding-bottom: 150px;
   letter-spacing: 1.5px;
+  color: #b59fea;
 }
