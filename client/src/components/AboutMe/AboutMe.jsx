@@ -1,6 +1,5 @@
 import './AboutMe.css'
 import TextScramble from '@twistezo/react-text-scramble'
-// import { getByLabelText } from '@testing-library/react'
 
 const scrambleTexts = [
   'Book Worm 🐛',
@@ -28,21 +27,25 @@ function AboutMe() {
 
       <div className='about-text'>
         <p>
-          Hello! I am Kiaya Anderson, a Software Engineer with an undisputed
-          love for learning, problem-solving, and all things design. Whether
-          I am going for a PR at my Crossfit gym or learning a new programming
-          language, I am always ready to face and conquer a challenge.
+          Hello! I am Kiaya Anderson, and I have an undisputed love for learning,
+          problem-solving, and all things tech. My interest in web development started
+          back in 2005 when MySpace was the top social media platform - who would have
+          thought personalizing a profile page would unknowingly teach me how to use
+          HTML and CSS!
         </p>
         <p>
-          Professional experiences in healthcare, business, and education have
-          developed my ability to adapt to ever-changing environments, curate
-          memorable user experiences, and find creative solutions to any problem.
-          I am passionate about increasing inclusivity and diversity in tech
-          through representation and strive to be an example that you are capable
-          of accomplishing anything you set out to do with perseverance and
-          consistency.
+          Since then, I have worked in various professional roles in healthcare, business,
+          and education, building my knowledge of project planning, customer relationship/database
+          management, and strong organizational methods for varied settings. I have also 
+          obtained a Masters in Information Technology and completed a Software Engineering
+          Immersive bootcamp to increase my technical skills. 
         </p>
-        <h2><strong>&lt;skills&gt;</strong></h2> 
+        <p>
+          I am passionate about increasing inclusivity and diversity in tech through representation
+          and strive to be an example that you are capable of accomplishing anything you set out to
+          do with perseverance and consistency.
+        </p>
+        <h2><strong>Skills:</strong></h2> 
       </div> 
       <div className='skill-container section-container'>
         <ul className='skill-grid'>

@@ -7,28 +7,35 @@
   font-family: "Gilda Display", sans-serif;
 }
 
+.about {
+  margin-bottom: 20px;
+}
+
 .about-title {
-  font-size: 50px;
+  font-size: 45px;
   font-weight: bold;
-  letter-spacing: 5px;
+  letter-spacing: 7px;
 }
 
 .scramble-container {
-  font-size: 24px;
+  font-size: 18px;
   font-style: italic;
   line-height: 0.8;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #b59fea;
+  width: 35%;
+  margin: auto;
 }
 
 .scramble-color {
   display: inline-block;
-  font-weight: bold;
-  color: #b59fea;
+  font-weight: normal;
 }
 
 .about-text {
   padding-left: 150px;
   padding-right: 150px;
+  padding-top: 20px;
   font-size: 20px;
 }
 
@@ -44,9 +51,10 @@
 
 .skill-grid {
   display: grid;
-  grid-template-columns: repeat(6, 80px);
+  grid-template-columns: repeat(6, 90px);
   grid-column-gap: 50px;
   grid-row-gap: 50px;
+  padding-left: 0px;
 }
 
 .skill-grid li:hover {
