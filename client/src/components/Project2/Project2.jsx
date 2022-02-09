@@ -23,20 +23,20 @@ function Project2() {
           gutterBottom
           variant="h4"
           component="div"
-          fontFamily="Sen"
+          fontFamily="Gilda Display"
           textAlign="center"
           fontWeight="bold"
         >
-          WHATEVER THE WEATHER
+          Whatever the Weather
         </Typography>
-        <Typography fontFamily="Sen" fontSize="16.5px" color="black" textAlign="center">
+        <Typography fontFamily="Gilda Display" fontSize="18px" color="black" textAlign="center">
             <em>Whatever the Weather</em> is an online application that allows users to view
             fun activity ideas based on the season. The user can select a season on the
             homepage, which will direct them to another page populated with activity names,
             an image, and a brief description. The user can also
             add their favorite seasonal activity via an online form.
           <hr />
-          <strong>MADE WITH:</strong> Javascript, React, Material-UI, & CSS
+          <strong>MADE WITH:</strong> Javascript, React, Material-UI, CSS
         </Typography>
       </CardContent>
       <CardActions>

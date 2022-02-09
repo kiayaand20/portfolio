@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap");
 
 .footer {
   display: flex;
@@ -14,5 +14,5 @@
 .logo {
   font-family: "Sen", sans-serif;
   font-size: 15px;
-  font-weight: bold;
+  color: black;
 }

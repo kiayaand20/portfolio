@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap");
 
 .wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-family: "Sen", sans-serif;
+  font-family: "Gilda Display", sans-serif;
 }
 
 .about-title {
@@ -63,7 +63,7 @@
 
 .skill-grid li p {
   margin-top: 10px;
-  font-family: "Sen", sans-serif;
+  font-family: "Gilda Display", sans-serif;
   font-size: 14px;
   font-weight: bold;
 }

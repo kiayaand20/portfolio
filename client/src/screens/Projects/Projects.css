@@ -1,20 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap");
 
 .project-title {
   display: flex;
   justify-content: center;
-  font-family: "Sen", sans-serif;
-  font-size: 50px;
+  font-family: "Gilda Display", serif;
+  font-size: 45px;
   font-weight: bold;
-  letter-spacing: 5px;
-  margin-bottom: 20px;
+  letter-spacing: 7px;
+  margin-bottom: 15px;
 }
 
 .project-text {
-  font-family: "Sen", sans-serif;
+  font-family: "Gilda Display", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 18px;
+  border-bottom: 2px solid #b59fea;
+  width: 40%;
+  margin: auto;
+  padding-bottom: 20px;
 }
 
 .projects {

@@ -23,15 +23,15 @@ function Project1() {
           gutterBottom
           variant="h4"
           component="div"
-          fontFamily="Sen"
+          fontFamily="Gilda Display"
           textAlign="center"
           fontWeight="bold"
         >
-          THE BEAUTY BAR
+          The Beauty Bar
         </Typography>
-        <Typography fontFamily="Sen" fontSize="18px" color="black" textAlign="center">
+        <Typography fontFamily="Gilda Display" fontSize="19px" color="black" textAlign="center">
           <em>The Beauty Bar</em> is a web application that displays a wide
-          variety of beauty products from the most popular and trendy brands.
+          variety of beauty products from popular and trendy brands.
           Users are able to search for items by product type, brand, price,
           and ingredient preferences. Products come from an outside Makeup API.
           <hr />
@@ -39,8 +39,8 @@ function Project1() {
         </Typography>
       </CardContent>
       <CardActions>
-          <a href="https://kiayaand20.github.io/The-Beauty-Bar/" style={{textDecoration:'none'}}><Button size="medium">LIVE SITE</Button></a>
-        <a href="https://github.com/kiayaand20/The-Beauty-Bar" style={{textDecoration:'none'}}><Button size="medium">CODE</Button></a>
+        <a href="https://kiayaand20.github.io/The-Beauty-Bar/" style={{textDecoration:'none'}}><Button size="large">LIVE SITE</Button></a>
+        <a href="https://github.com/kiayaand20/The-Beauty-Bar" style={{textDecoration:'none'}}><Button size="large">CODE</Button></a>
       </CardActions>
       </Card>
       </div>

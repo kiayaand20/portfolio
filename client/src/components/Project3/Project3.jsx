@@ -23,20 +23,20 @@ function Project3() {
           gutterBottom
           variant="h4"
           component="div"
-          fontFamily="Sen"
+          fontFamily="Gilda Display"
           textAlign="center"
           fontWeight="bold"
         >
-          SOCK²
+          Sock²
         </Typography>
-        <Typography fontFamily="Sen" fontSize="16.5px" color="black" textAlign="center">
+        <Typography fontFamily="Gilda Display" fontSize="18.5px" color="black" textAlign="center">
             <em>Sock²</em> is an aspiring shopping application that features creative
             design socks. Users are able to create an account, browse through all
             sock inventory, and view specific sock details. Similarly, the app provides the
             functionality of adding, editing, and deleting a sock. The newly added socks will
             be included on the new arrivals page. 
           <hr />
-          <strong>MADE WITH:</strong> Javascript, React, Express/Mongoose, Material-UI, & CSS
+          <strong>MADE WITH:</strong> Javascript, React, Express/Mongoose, Material-UI, CSS
         </Typography>
       </CardContent>
       <CardActions>

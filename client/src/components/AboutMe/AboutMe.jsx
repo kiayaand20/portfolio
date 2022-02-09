@@ -14,7 +14,7 @@ function AboutMe() {
   return (
     <div className='wrapper'>
       <div className='about-title'>
-        <p>ABOUT ME</p>
+        <p className='about'>ABOUT ME</p>
           <div className='scramble-container'>
             <TextScramble
               texts={scrambleTexts}
