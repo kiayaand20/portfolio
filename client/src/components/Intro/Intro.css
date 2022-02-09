@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 
 .home-container {
@@ -12,7 +12,7 @@
 
 .home-intro {
   text-align: left;
-  font-family: "Sen", sans-serif;
+  font-family: "Gilda Display", sans-serif;
   animation-duration: 3s;
   animation-name: slidein;
 }
@@ -31,15 +31,16 @@
 
 .name {
   font-weight: bold;
-  font-size: 72px;
+  font-size: 85px;
   line-height: 0;
   font-family: "Caveat", cursive;
+  letter-spacing: 7px;
 }
 
 .title {
   font-weight: bold;
-  font-size: 48px;
+  font-size: 40px;
   padding-bottom: 150px;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
   color: #b59fea;
 }
