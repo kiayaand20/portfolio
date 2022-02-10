@@ -31,9 +31,9 @@ function Project4() {
         </Typography>
         <Typography fontFamily="Gilda Display" fontSize="18px" color="black" textAlign="center">
             <em>blackArchives</em> is an online database devoted to celebrating the work of Black Film Directors.
-            The application will feature information on each director and details about their films. The site is
-            authenticated, which allows users to access Director and Film information. Users will also be able to add,
-            update and delete directors and films from the list.
+            The application will feature information on each director and details about their films. Users can view
+            Director and Film information; however, due to authentication, users will not be able to add, update and
+            delete directors or films from the list until signed in.
           <hr />
           <strong>MADE WITH:</strong> HTML, CSS, Javascript, Python, React
         </Typography>
