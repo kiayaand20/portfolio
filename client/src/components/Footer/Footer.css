@@ -12,7 +12,7 @@
 .logo {
   display: flex;
   font-family: "Gilda Display", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   color: black;
   padding-left: 20px;
@@ -47,7 +47,7 @@
 
 @media (max-width: 800px) {
   .logo {
-    font-size: 15px;
+    font-size: 12px;
     padding-left: 15px;
     padding-right: 170px;
   }

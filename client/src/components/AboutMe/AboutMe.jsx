@@ -40,7 +40,7 @@ function AboutMe() {
           multifaceted perspective, with strong knowledge of project planning,
           customer relationship/database management, and organizational methods
           for varied settings. I look forward to joining a great team to excel
-          with and building a long-term career.
+          with and building a long-term career in tech.
         </p>
         <p className="skills">
           <strong>Skills:</strong>

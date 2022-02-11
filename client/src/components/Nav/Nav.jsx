@@ -16,7 +16,7 @@ const alwaysOptions = (
     <NavLink className="link" to="/contact">
       Contact
     </NavLink>
-    <a href="https://drive.google.com/file/d/1vqtleSGITCibGqSe_uV0QHmJoVVFntJ7/view"
+    <a href="https://drive.google.com/file/d/1qPZVh0y90ZlqYuWyuqbK809X9sYr_o35/view?usp=sharing"
         rel="noreferrer" target="_blank" className='link'><Link to='/resume'>
         </Link>Resume</a>
   </>
