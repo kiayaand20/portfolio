@@ -9,7 +9,7 @@ function Intro() {
         <p className="home-title">SOFTWARE ENGINEER</p>
         <p className="home-paragraph">
           Self-motivated Software Engineer with a passion for
-          <br /> building memorable digital experiences that encourages
+          <br /> building memorable digital experiences that encourage
           <br /> community, inclusivity, and knowledge.
         </p>
       </div>
