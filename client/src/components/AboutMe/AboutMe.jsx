@@ -2,11 +2,11 @@ import "./AboutMe.css";
 import TextScramble from "@twistezo/react-text-scramble";
 
 const scrambleTexts = [
-  "Book Worm 🐛",
-  "Lifetime Learner 📚",
-  "Crossfitter 💪🏾",
-  "Naturalista ➰",
-  "Music Lover 🎶",
+  "Book Worm",
+  "Lifetime Learner",
+  "Crossfitter",
+  "Naturalista",
+  "Music Lover",
 ];
 
 function AboutMe() {
