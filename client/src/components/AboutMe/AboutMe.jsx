@@ -13,7 +13,7 @@ function AboutMe() {
   return (
     <div className='wrapper'>
       <div className='about-title'>
-        <p className='about'>ABOUT ME</p>
+        <p className='about'>Hi, I'm Kiaya!</p>
           <div className='scramble-container'>
             <TextScramble
               texts={scrambleTexts}
@@ -27,33 +27,29 @@ function AboutMe() {
 
       <div className='about-text'>
         <p>
-          Hello! I am Kiaya Anderson, and I have an undisputed love for learning,
-          problem-solving, and all things tech. My interest in web development started
+          I'm a Software Engineer with an undisputed love for learning,
+          problem-solving, and technology. My interest in web development started
           back in 2005 when MySpace was the top social media platform - who would have
           thought personalizing a profile page would unknowingly teach me how to use
           HTML and CSS!
         </p>
         <p>
-          Since then, I have worked in various professional roles in healthcare, business,
-          and education, building my knowledge of project planning, customer relationship/database
-          management, and strong organizational methods for varied settings. I have also 
-          obtained a Masters in Information Technology and completed a Software Engineering
-          Immersive bootcamp to increase my technical skills. 
+          Fast-forward to today, my curiosity and passion for tech has led me to pursue a 
+          career in Software Development full-time. With over 8 years of professional experience 
+          and educational endeavors, I bring a multifaceted perspective, with strong knowledge of project 
+          planning, customer relationship/database management, and organizational methods for varied settings. 
+          I look forward to joining a great team to excel with and building a long-term career. 
         </p>
-        <p>
-          I am passionate about increasing inclusivity and diversity in tech through representation
-          and strive to be an example that you are capable of accomplishing anything you set out to
-          do with perseverance and consistency.
-        </p>
-        <h2><strong>Skills:</strong></h2> 
+        <p className='skills'><strong>Skills:</strong></p> 
       </div> 
+
       <div className='skill-container section-container'>
         <ul className='skill-grid'>
         <div className='item-container'>
         <li><img src="https://icongr.am/devicon/react-original.svg?size=128&color=currentColor"
               alt="react" width="65" height="66.5" /><p>React</p></li></div>
           
-         <div className='item-container'>
+        <div className='item-container'>
         <li><img src="https://icongr.am/devicon/javascript-original.svg?size=128&color=currentColor"
             alt="javascript" width="65" height="66.5" /><p>Javascript</p></li></div>
           

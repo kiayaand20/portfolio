@@ -9,7 +9,7 @@ function Home() {
   return (
     <Layout>
       <div>
-        <p className='project-title'>PROJECTS</p>
+        <p className='project-title'>Projects</p>
         <p className='project-text'>Every project is a labor of love and hardwork. Enjoy!</p>
         <div className='projects'>
           <Project4 />

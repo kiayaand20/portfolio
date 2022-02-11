@@ -40,8 +40,8 @@ function Project2() {
         </Typography>
       </CardContent>
       <CardActions>
-        <a href="https://whatever-theweather.netlify.app/" style={{textDecoration:'none'}}><Button size="medium">LIVE SITE</Button></a>
-        <a href="https://github.com/kiayaand20/Whatever-the-Weather" style={{textDecoration:'none'}}><Button size="medium">CODE</Button></a>
+        <a href="https://whatever-theweather.netlify.app/"  rel="noreferrer" target="_blank" style={{textDecoration:'none'}}><Button size="large">LIVE SITE</Button></a>
+        <a href="https://github.com/kiayaand20/Whatever-the-Weather"  rel="noreferrer" target="_blank" style={{textDecoration:'none'}}><Button size="large">CODE</Button></a>
       </CardActions>
         </Card>
       </div>

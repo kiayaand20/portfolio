@@ -1,12 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Gilda+Display&family=Lora:ital,wght@1,600&display=swap");
 
 .home-container {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  padding-top: 100px;
-  padding-left: 80px;
+  padding-top: 80px;
+  padding-left: 50px;
   line-height: 0.7;
 }
 
@@ -26,28 +25,38 @@
   }
 }
 
-.name {
+.home-name {
   font-weight: bold;
-  font-size: 85px;
+  font-size: 96px;
   line-height: 0;
-  font-family: "Caveat", cursive;
-  letter-spacing: 7px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  letter-spacing: 2px;
 }
 
-.title {
+.home-title {
   font-weight: bold;
-  font-size: 40px;
-  padding-bottom: 150px;
+  font-size: 32px;
+  padding-bottom: 45px;
   letter-spacing: 2px;
   color: #b59fea;
+  border-bottom: 2px solid #b59fea;
+  width: 42%;
+}
+
+.home-paragraph {
+  font-size: 24px;
+  line-height: 1.3;
+  width: 44%;
+  padding-bottom: 20px;
 }
 
 .circles {
   position: absolute;
-  top: 8%;
+  top: 5%;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 95%;
   overflow: hidden;
 }
 @keyframes animate {

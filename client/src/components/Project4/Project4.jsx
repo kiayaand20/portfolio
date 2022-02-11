@@ -39,8 +39,8 @@ function Project4() {
         </Typography>
       </CardContent>
       <CardActions>
-        <a href="https://blackarchives.netlify.app/" style={{textDecoration:'none'}}><Button size="large">LIVE SITE</Button></a>
-        <a href="https://github.com/kiayaand20/blackarchives" style={{textDecoration:'none'}}><Button size="large">CODE</Button></a>
+        <a href="https://blackarchives.netlify.app/"  rel="noreferrer" target="_blank" style={{textDecoration:'none'}}><Button size="large">LIVE SITE</Button></a>
+        <a href="https://github.com/kiayaand20/blackarchives"  rel="noreferrer" target="_blank" style={{textDecoration:'none'}}><Button size="large">CODE</Button></a>
       </CardActions>
       </Card>
       </div>

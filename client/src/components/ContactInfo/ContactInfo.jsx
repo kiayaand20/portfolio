@@ -1,27 +1,45 @@
 import './ContactInfo.css'
+import emailjs from "emailjs-com";
+import React from 'react';
 
-function ContactInfo() {
+function ContactInfo(e) {
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('gmail', 'template_2wugvdb', e.target, 'user_yVdA2jmrAWFqXiwZqAeHq')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+    e.target.reset()
+  }
+
   return (
     <div className='contact-pg'>
-      <p className='connect-title'>LET'S CONNECT</p>
+      <p className='connect-title'>Let's Connect</p>
       <p className='connect-title2'>I would love to hear from you!</p>
       <p className='connect-sentence'>Whether you have a question, want to discuss
-       opportunities, <br />or simply say hello - I am available to chat!</p>
-      <div className='contact-info-imgs'>
-          <a href="mailto: kiayaanderson89@gmail.com" className='gmail'>
-            <img src="https://res.cloudinary.com/kacloud20/image/upload/c_scale,w_100/v1642885321/Portfolio/Gmailimg_dpbucx.png" 
-            alt='gmail-img' />
-          </a>
-          <a href="https://www.linkedin.com/in/kiayaanderson/" className='linked-in'>
-            <img src="https://icongr.am/devicon/linkedin-original.svg?size=100&color=currentColor" 
-            alt='linked-in-img' />
-          </a>
-          <a href="https://github.com/kiayaand20" className='github'>
-            <img src="https://icongr.am/devicon/github-original.svg?size=100&color=currentColor"
-            alt='github-img' />
-          </a>
+        opportunities, <br />or simply say hello - I am available to chat!</p>
+
+      <div>
+        <form onSubmit={sendEmail}>
+          <div className='row pt-5 mx-auto'>
+            <input type="text" className='form-control' placeholder='Name' name="name" />
+          </div>
+          <div className='col-8 form-group pt-2 mx-auto'>
+            <input type="text" className='form-control' placeholder='Email Address' name="email" />
+          </div>
+          <div className='col-8 form-group pt-2 mx-auto'>
+            <textarea type="text" className='form-control' cols="30" rows="8" placeholder='Message' name="message"></textarea>
+          </div>
+          <div className='col-8 pt-3 mx-auto'>
+            <input type="submit" className='submit' value="Send" />
+          </div>
+        </form>
       </div>
-      <p className='connect-thanks'><em>Thanks for stopping by!</em></p>
+
     </div>
   )
 }

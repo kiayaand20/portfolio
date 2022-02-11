@@ -40,8 +40,8 @@ function Project3() {
         </Typography>
       </CardContent>
       <CardActions>
-        <a href="https://socksquared.netlify.app/" style={{textDecoration:'none'}}><Button size="medium">LIVE SITE</Button></a>
-        <a href="https://github.com/kiayaand20/sock2-app" style={{textDecoration:'none'}}><Button size="medium">CODE</Button></a>
+        <a href="https://socksquared.netlify.app/"  rel="noreferrer" target="_blank" style={{textDecoration:'none'}}><Button size="large">LIVE SITE</Button></a>
+        <a href="https://github.com/kiayaand20/sock2-app"  rel="noreferrer" target="_blank" style={{textDecoration:'none'}}><Button size="large">CODE</Button></a>
       </CardActions>
       </Card>
       </div>

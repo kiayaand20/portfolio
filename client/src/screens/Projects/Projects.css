@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   font-family: "Gilda Display", serif;
-  font-size: 45px;
+  font-size: 35px;
   font-weight: bold;
   letter-spacing: 7px;
   margin-bottom: 15px;
@@ -16,7 +16,7 @@
   font-weight: normal;
   font-size: 18px;
   border-bottom: 2px solid #b59fea;
-  width: 40%;
+  width: 35%;
   margin: auto;
   padding-bottom: 20px;
 }

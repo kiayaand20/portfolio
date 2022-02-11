@@ -1,4 +1,3 @@
-import './Contact.css'
 import Layout from '../../components/Layout/Layout'
 import ContactInfo from '../../components/ContactInfo/ContactInfo'
 

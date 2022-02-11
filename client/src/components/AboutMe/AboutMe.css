@@ -12,7 +12,7 @@
 }
 
 .about-title {
-  font-size: 45px;
+  font-size: 35px;
   font-weight: bold;
   letter-spacing: 7px;
 }
@@ -33,10 +33,13 @@
 }
 
 .about-text {
-  padding-left: 150px;
-  padding-right: 150px;
-  padding-top: 20px;
-  font-size: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 24px;
+}
+
+.skills {
+  font-size: 28px;
 }
 
 .skill-container {

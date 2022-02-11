@@ -1,4 +1,3 @@
-import './About.css'
 import Layout from '../../components/Layout/Layout'
 import AboutMe from '../../components/AboutMe/AboutMe'
 

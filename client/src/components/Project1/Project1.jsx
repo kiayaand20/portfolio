@@ -39,8 +39,8 @@ function Project1() {
         </Typography>
       </CardContent>
       <CardActions>
-        <a href="https://kiayaand20.github.io/The-Beauty-Bar/" style={{textDecoration:'none'}}><Button size="large">LIVE SITE</Button></a>
-        <a href="https://github.com/kiayaand20/The-Beauty-Bar" style={{textDecoration:'none'}}><Button size="large">CODE</Button></a>
+        <a href="https://kiayaand20.github.io/The-Beauty-Bar/"  rel="noreferrer" target="_blank" style={{textDecoration:'none'}}><Button size="large">LIVE SITE</Button></a>
+        <a href="https://github.com/kiayaand20/The-Beauty-Bar"  rel="noreferrer" target="_blank" style={{textDecoration:'none'}}><Button size="large">CODE</Button></a>
       </CardActions>
       </Card>
       </div>

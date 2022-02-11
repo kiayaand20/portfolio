@@ -1,5 +1,6 @@
 import Nav from '../Nav/Nav'
 import Footer from '../Footer/Footer'
+import React from 'react';
 
 function Layout(props) {
   return (
