@@ -30,28 +30,86 @@
 }
 
 @media (max-width: 1190px) {
-  .navbar {
+  .links {
+    display: none;
+  }
+
+  .curtain {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
+    font-family: "Gilda Display", serif;
+    margin-top: 1px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 15px;
+    align-content: flex-end;
+    font-size: 18px;
+    width: 55%;
+    color: white;
   }
-  .menuBtn {
-    font-size: 24px;
-    margin-top: 15px;
-    margin-right: 0;
-    padding-right: 0;
-  }
-  .menuBtn:hover {
-    text-decoration: underline 2px #b59fea;
-    text-underline-offset: 10px;
-    font-weight: bold;
-  }
+
   .curtainBtn {
-    margin-right: 0;
-    padding-right: 0;
-    padding-left: 420px;
+    display: flex;
+    flex: 2;
+    max-width: 60vw;
+    align-items: center;
+    font-size: 18px;
   }
+
+  .menuBtn {
+    display: flex;
+    margin-top: 35px;
+    margin-left: 40px;
+    background: none;
+    border: none;
+    font-family: "Gilda Display", serif;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+
+  .overlay {
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgb(0, 0, 0, 0.85);
+    overflow-y: hidden;
+    transition: 0.7s;
+  }
+  .overlay.showMenu {
+    height: 100%;
+  }
+
+  .overlayBtn {
+    position: absolute;
+    top: 30px;
+    right: 45px;
+    background: none;
+    border: none;
+    font-family: "Hanuman", serif;
+    font-size: 30px;
+    color: white;
+  }
+
+  .overlay-content {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 10%;
+    font-size: 50px;
+    padding: 60px;
+  }
+
   .link {
-    font-size: 22px;
+    color: white;
   }
 }
 

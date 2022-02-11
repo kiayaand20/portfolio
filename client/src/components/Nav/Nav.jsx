@@ -32,7 +32,6 @@ function Nav() {
   return (
     <nav className='navbar'>
       <div className="links">{alwaysOptions}</div>
-
         <div className="curtain">
           <div className="curtainBtn">
             <button className="menuBtn" onClick={toggleMenu}>
@@ -49,7 +48,6 @@ function Nav() {
             </div>
           </div>
         </div>
-
     </nav>
   )
 }
