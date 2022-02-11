@@ -131,3 +131,76 @@
   animation-delay: 0s;
   animation-duration: 11s;
 }
+
+@media (max-width: 1190px) {
+  .home-paragraph {
+    width: 65%;
+  }
+}
+
+@media (max-width: 800px) {
+  .home-name {
+    font-size: 66px;
+  }
+  .home-title {
+    line-height: 1.3;
+    font-size: 22px;
+    padding-bottom: 25px;
+    letter-spacing: 2px;
+    width: 50%;
+  }
+  .home-paragraph {
+    font-size: 20px;
+    line-height: 1.3;
+    width: 70%;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 420px) {
+  .home-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 0;
+  }
+  .home-name {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+  }
+  .home-title {
+    line-height: 1.3;
+    font-size: 18px;
+    padding-bottom: 25px;
+    letter-spacing: 2px;
+    width: 70%;
+    border-bottom: 2px solid #b59fea;
+    margin: auto;
+    text-align: center;
+  }
+  .home-paragraph {
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.3;
+    width: 70%;
+    text-align: center;
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .home-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 0;
+  }
+  .home-name {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+  }
+}

@@ -4,3 +4,9 @@
   clear: both;
   text-align: center;
 }
+
+@media (max-width: 800px) {
+  .body {
+    margin-bottom: 100px;
+  }
+}

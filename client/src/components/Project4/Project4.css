@@ -3,3 +3,11 @@
   justify-content: center;
   padding-top: 60px;
 }
+
+@media (max-width: 420px) {
+  .project4-container {
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

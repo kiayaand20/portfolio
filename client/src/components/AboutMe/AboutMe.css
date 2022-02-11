@@ -15,6 +15,7 @@
   font-size: 35px;
   font-weight: bold;
   letter-spacing: 7px;
+  padding-top: 40px;
 }
 
 .scramble-container {
@@ -85,4 +86,57 @@ ul {
 
 item-container {
   box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+  .about-text {
+    font-size: 20px;
+  }
+  .scramble-container {
+    font-size: 16px;
+    width: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  .about-title {
+    font-size: 28px;
+  }
+  .scramble-container {
+    font-size: 14px;
+    width: 75%;
+  }
+  .about-text {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  .skill-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 90px);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 420px) {
+  .about-title {
+    font-size: 28px;
+  }
+  .scramble-container {
+    font-size: 14px;
+    width: 75%;
+  }
+  .about-text {
+    font-size: 18px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .skill-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 90px);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    padding-right: 0px;
+  }
 }
