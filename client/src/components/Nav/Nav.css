@@ -61,15 +61,16 @@
   .menuBtn {
     display: flex;
     margin-top: 35px;
-    margin-left: 40px;
+    margin-left: 560px;
     background: none;
     border: none;
     font-family: "Gilda Display", serif;
-    text-decoration: none;
     color: black;
     font-size: 20px;
+    text-decoration: underline overline 2px #b59fea;
+    text-underline-offset: 6px;
+    font-weight: bold;
   }
-
   .overlay {
     display: flex;
     flex-flow: column;
@@ -119,7 +120,7 @@
     justify-content: flex-end;
   }
   .menuBtn {
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 15px;
     margin-right: 0;
     padding-right: 0;
