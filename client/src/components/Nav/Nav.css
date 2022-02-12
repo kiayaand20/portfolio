@@ -56,6 +56,9 @@
     max-width: 60vw;
     align-items: center;
     font-size: 18px;
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 580px;
   }
 
   .menuBtn {
@@ -130,7 +133,7 @@
   .curtainBtn {
     margin-right: 0;
     padding-right: 0;
-    padding-left: 420px;
+    padding-left: 490px;
   }
   .link {
     font-size: 40px;
@@ -151,7 +154,7 @@
   .curtainBtn {
     margin-right: 0;
     padding-right: 0;
-    padding-left: 280px;
+    padding-left: 390px;
   }
   .link {
     font-size: 36px;
@@ -173,7 +176,7 @@
   .curtainBtn {
     margin-right: 0;
     padding-right: 0;
-    padding-left: 110px;
+    padding-left: 140px;
   }
   .link {
     font-size: 20px;

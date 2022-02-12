@@ -151,13 +151,25 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 985px) {
+  .home-name {
+    font-size: 70px;
+  }
+  .home-title {
+    font-size: 22px;
+    width: 55%;
+  }
+  .home-paragraph {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 800px) {
   .home-name {
     font-size: 66px;
   }
   .home-title {
     line-height: 1.3;
-    font-size: 22px;
     padding-bottom: 25px;
     letter-spacing: 2px;
     width: 50%;
@@ -167,6 +179,16 @@
     line-height: 1.3;
     width: 70%;
     padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .home-name {
+    font-size: 50px;
+  }
+  .home-title {
+    font-size: 18px;
+    width: 55%;
   }
 }
 
