@@ -148,11 +148,6 @@
     margin-right: 0;
     padding-right: 0;
   }
-  .menuBtn:hover {
-    text-decoration: underline 2px #b59fea;
-    text-underline-offset: 10px;
-    font-weight: bold;
-  }
   .curtainBtn {
     margin-right: 0;
     padding-right: 0;
