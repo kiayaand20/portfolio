@@ -65,9 +65,11 @@
     background: none;
     border: none;
     font-family: "Gilda Display", serif;
-    text-decoration: none;
     color: black;
     font-size: 20px;
+    text-decoration: underline overline 2px #b59fea;
+    text-underline-offset: 6px;
+    font-weight: bold;
   }
 
   .overlay {
@@ -145,7 +147,7 @@
     justify-content: flex-end;
   }
   .menuBtn {
-    font-size: 24px;
+    font-size: 18px;
     margin-top: 15px;
     margin-right: 0;
     padding-right: 0;
@@ -171,7 +173,7 @@
     justify-content: flex-end;
   }
   .menuBtn {
-    font-size: 18px;
+    font-size: 14px;
     margin-top: 15px;
     margin-right: 0;
     padding-right: 0;
