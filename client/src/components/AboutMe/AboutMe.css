@@ -52,11 +52,15 @@
 
 .skills {
   font-size: 28px;
+  border-bottom: 2px solid #b59fea;
+  width: 15%;
+  margin: auto;
 }
 
 .skill-container {
   text-align: center;
   font-size: 0.7rem;
+  padding-top: 15px;
 }
 
 .section-container {
