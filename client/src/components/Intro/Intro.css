@@ -58,7 +58,6 @@
   width: 100%;
   height: 95%;
   overflow: hidden;
-  z-index: 1;
 }
 @keyframes animate {
   0% {
