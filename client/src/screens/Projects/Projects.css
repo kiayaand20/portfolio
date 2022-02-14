@@ -44,6 +44,7 @@
 
 @media (max-width: 420px) {
   .project-title {
+    padding-top: 20px;
     font-size: 28px;
   }
   .project-text {

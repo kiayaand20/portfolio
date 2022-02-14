@@ -29,7 +29,7 @@ function ContactInfo(e) {
       <p className="connect-title">Let's Connect</p>
       <p className="connect-title2">I would love to hear from you!</p>
       <p className="connect-sentence">
-        Whether you have a question, want to discuss opportunities, <br />
+        Whether you have a question, want to discuss opportunities,
         or simply say hello - I am available to chat!
       </p>
 

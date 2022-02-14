@@ -185,7 +185,8 @@
 @media (max-width: 320px) {
   .logo {
     font-size: 10px;
-    padding-left: 6px;
+    padding-left: 8px;
+    padding-top: 5px;
   }
   .linked-in,
   .github,

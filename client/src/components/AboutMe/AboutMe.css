@@ -133,6 +133,7 @@ item-container {
 
 @media (max-width: 420px) {
   .about-title {
+    padding-top: 20px;
     font-size: 28px;
   }
   .scramble-container {
